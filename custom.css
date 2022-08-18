@@ -14,3 +14,14 @@
     flex-direction: row;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .card-parent-parent {
+        align-items: center;
+    }
+    .card-parent {
+        flex-flow: row wrap;
+        width: 80vh;
+        align-items: center;
+    }
+}
