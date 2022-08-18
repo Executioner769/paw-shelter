@@ -3,6 +3,12 @@
     margin: 10px 20px;
 }
 
+#image_ {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
 .card-parent-parent {
     display: flex;
     flex-direction: column;
@@ -11,17 +17,20 @@
 
 .card-parent {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .card-parent-parent {
         align-items: center;
     }
     .card-parent {
         flex-flow: row wrap;
-        width: 80vh;
         align-items: center;
+    }
+
+    .card {
+        width: 70vw;
     }
 }
