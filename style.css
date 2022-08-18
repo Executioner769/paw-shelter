@@ -25,3 +25,8 @@ header {
 form {
     padding: 0px 20px;
 }
+
+#dogForm,
+#shelterForm {
+    display: none;
+}

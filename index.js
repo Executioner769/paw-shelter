@@ -42,3 +42,15 @@ setInterval(() => {
     quoteElement.innerText =
         quotes[Math.floor(Math.random() * quotes.length)].quote;
 }, 3000);
+
+// Logic for the Form display
+
+document.getElementById("dog-btn").addEventListener("click", () => {
+    document.getElementById("dogForm").style.display = "block";
+    document.getElementById("shelterForm").style.display = "none";
+});
+
+document.getElementById("shelter-btn").addEventListener("click", () => {
+    document.getElementById("dogForm").style.display = "none";
+    document.getElementById("shelterForm").style.display = "block";
+});
