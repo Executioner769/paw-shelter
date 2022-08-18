@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="" lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,6 +14,285 @@
         <link rel="stylesheet" href="style.css" />
         <title>PAWS 🐶</title>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <nav class="navbar" role="navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://bulma.io">
+                        <img src="brown logo.png" id="img" />
+                    </a>
+
+                    <a
+                        role="button"
+                        class="navbar-burger"
+                        data-target="navMenu"
+                        aria-label="menu"
+                        aria-expanded="false"
+                    >
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <!-- <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"> Home </a>
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item">Form1</a>
+                                <a class="navbar-item">Form2</a>
+                            </div>
+                        </div> -->
+                        <a class="navbar-item" href="/index.html"> Home </a>
+                        <a class="navbar-item" href="/articles.html">
+                            Articles
+                        </a>
+                        <a class="navbar-item" href="/food.html">
+                            Dog Details
+                        </a>
+                        <a class="navbar-item" href="/about.html"> About </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container is-fluid">
+                <section
+                    class="box has-background-info-light has-text-centered"
+                >
+                    <h1 class="title">We Take Care of your Pet</h1>
+                    <h2 id="quote" class="subtitle">
+                        "You do not own a dog. You have a dog. And the dog has
+                        you."
+                    </h2>
+                </section>
+                <div class="columns px-3">
+                    <div class="column is-half">
+                        <div class="card has-background-light">
+                            <div class="card-content">
+                                <p class="title">
+                                    “Looking for a Shelter for Harry!”
+                                </p>
+                                <p class="subtitle">
+                                    Fill out the form for further assistance and
+                                    details.
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a
+                                            role="button"
+                                            class="has-text-centered card-footer-item"
+                                            id="shelter-btn"
+                                        >
+                                            Click Here
+                                        </a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column is-half">
+                        <div class="card has-background-light">
+                            <div class="card-content">
+                                <p class="title">“Tell us about you Leo!”</p>
+                                <p class="subtitle">
+                                    Fill out the form for further assistance and
+                                    details.
+                                </p>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a
+                                            role="button"
+                                            class="has-text-centered card-footer-item"
+                                            id="dog-btn"
+                                        >
+                                            Click Here
+                                        </a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-parent-parent container">
+                    <div class="form-parent has-background-link-light box px-3">
+                        <h1 class="subtitle has-text-centered">Details</h1>
+                        <!-- Shelter Form -->
+                        <form id="shelterForm">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="email"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Contact Number</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Address</label>
+                                <div class="control">
+                                    <textarea
+                                        class="textarea"
+                                        placeholder=""
+                                        rows="3"
+                                        style="resize: none"
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label"
+                                    >Reason for leaving your dog?</label
+                                >
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Number of days.</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <label class="checkbox">
+                                <input type="checkbox" />
+                                Leaving the dog permanently?
+                            </label>
+
+                            <div class="field is-grouped is-grouped-centered">
+                                <p class="control">
+                                    <a class="button is-success"> Submit </a>
+                                </p>
+                                <p class="control">
+                                    <a class="button is-danger"> Cancel </a>
+                                </p>
+                            </div>
+                        </form>
+                        <!-- Dog Form -->
+                        <form id="dogForm">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Color</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Gender</label>
+                                <div class="control">
+                                    <label class="radio">
+                                        <input type="radio" name="Male" />
+                                        Male
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="Female" />
+                                        Female
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Age</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label">Breed</label>
+                                <div class="control">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label class="label"
+                                    >Tell us about your dog.</label
+                                >
+                                <div class="control">
+                                    <textarea
+                                        class="textarea"
+                                        placeholder=""
+                                        rows="3"
+                                        style="resize: none"
+                                    ></textarea>
+                                </div>
+                            </div>
+                            <div class="field is-grouped is-grouped-centered">
+                                <p class="control">
+                                    <a class="button is-success"> Submit </a>
+                                </p>
+                                <p class="control">
+                                    <a class="button is-danger"> Cancel </a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
     <script src="index.js"></script>
 </html>
