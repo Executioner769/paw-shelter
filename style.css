@@ -31,7 +31,7 @@ header {
 }
 
 .form-parent {
-    width: 60vw;
+    width: 80vw;
     border: 2px solid #ccc;
 }
 
@@ -42,4 +42,8 @@ form {
 #dogForm,
 #shelterForm {
     display: none;
+}
+
+#items {
+    font-size: 2rem;
 }

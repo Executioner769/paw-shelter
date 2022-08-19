@@ -9,12 +9,6 @@
     object-fit: cover;
 }
 
-.card-parent-parent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .card-parent {
     display: flex;
     flex-flow: row wrap;
@@ -22,9 +16,6 @@
 }
 
 @media (max-width: 800px) {
-    .card-parent-parent {
-        align-items: center;
-    }
     .card-parent {
         flex-flow: row wrap;
         align-items: center;
