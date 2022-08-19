@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding: 30px 60px;
+    padding: 10px 30px;
 }
 
 #active {
@@ -54,4 +54,10 @@ form {
 
 #img {
     transform: scale(2.5);
+}
+
+@media (min-width: 768px) {
+    #img {
+        transform: scale(1.5);
+    }
 }
