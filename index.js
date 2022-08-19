@@ -46,11 +46,11 @@ setInterval(() => {
 // Logic for the Form display
 
 document.getElementById("dog-btn").addEventListener("click", () => {
-    document.getElementById("dogForm").style.display = "block";
+    document.getElementById("dogForm").style.display = "flex";
     document.getElementById("shelterForm").style.display = "none";
 });
 
 document.getElementById("shelter-btn").addEventListener("click", () => {
     document.getElementById("dogForm").style.display = "none";
-    document.getElementById("shelterForm").style.display = "block";
+    document.getElementById("shelterForm").style.display = "flex";
 });

@@ -18,6 +18,11 @@ header {
     padding: 30px 60px;
 }
 
+#active {
+    color: #fff;
+    background-color: hsl(217, 71%, 53%, 0.7);
+}
+
 .form-parent-parent {
     display: flex;
     flex-direction: column;
@@ -27,6 +32,7 @@ header {
 
 .form-parent {
     width: 60vw;
+    border: 2px solid #ccc;
 }
 
 form {
