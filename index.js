@@ -54,3 +54,5 @@ document.getElementById("shelter-btn").addEventListener("click", () => {
     document.getElementById("dogForm").style.display = "none";
     document.getElementById("shelterForm").style.display = "flex";
 });
+
+// Temp logic for add to cart
