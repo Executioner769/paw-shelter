@@ -53,11 +53,11 @@ form {
 }
 
 #img {
-    transform: scale(2.5);
+    transform: scale(2);
 }
 
 @media (min-width: 768px) {
-    #img {
+    /* #img {
         transform: scale(1.5);
-    }
+    } */
 }
