@@ -47,3 +47,11 @@ form {
 #items {
     font-size: 2rem;
 }
+
+.navbar-brand > .navbar-item {
+    position: relative;
+}
+
+#img {
+    transform: scale(2.5);
+}
